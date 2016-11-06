@@ -1,0 +1,10 @@
+<div class="heroesList">
+    <h2 class="concernsTitle">Life</h2>
+    <ul class="concerns">
+        <li *ngFor="#hero of concerns" (click)="onSelect(hero)">
+            <span class="badge">{{hero.id}}</span>
+            <span class="badge">{{hero.id}}</span>
+            {{hero.name}}
+        </li>
+    </ul>
+</div>
