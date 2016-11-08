@@ -1,2 +1,2 @@
-.idea
-client/nodes_modules
+/.idea/
+/client/node_modules/
